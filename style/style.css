@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-fraunces: "Fraunces", serif;
+    --font-poppins: "Poppins", serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Fraunces", serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-header header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    margin: 0px 0px 21px;
+}
+
+.container-header header img {
+    width: 124px;
+    height: 24px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.container-header header nav {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 17%;
+}
+
+.container-header header nav ul {
+    gap: 30px;
+    display: flex;
+}
+
+.container-header header nav ul li {
+    list-style: none;
+}
+
+.container-header header nav ul li a {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: .3 ease;
+    text-decoration: none;
+    padding: 0;
+    background-color: transparent;
+    font-family: var(--font-poppins);
+}
+
+.container-header header a {
+    color: hsl(212, 27%, 19%);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 1px solid transparent;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    transition: .3s ease;
+}
+
+.main-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .375rem;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.main-header img {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transition: .3s ease;
+ }
+
+ .main-header img:hover {
+    transform: translateY(10px);
+ }
+
+.xd {
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+}
